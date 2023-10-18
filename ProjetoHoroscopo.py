@@ -9,6 +9,7 @@ mes = int(input('Digite o mes do seu nascimento: '))
 
 # Processamento: Cada bloco contém um elif, if e else fazendo a verificação
 # do mês e dia, if o dia for maior, um signo, else o signo do mês anterior.
+# é possível realizar com menos linhas porém acredito que esse está bem explicativo.
 
 if mes == 1:
     if dia > 19:
